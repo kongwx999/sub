@@ -15,7 +15,6 @@ let cacheTTL = 24 ;//小时，缓存时长
 //节点链接 + 订阅链接
 let MainData = `
 hysteria2://e8c30852-8c21-11ef-b139-3cecef0f5066@85.194.243.117:60239/?sni=www.bing.com&alpn=h3&insecure=1#PL05
-hysteria2://05fb0b80-8c20-11ef-9ece-3cecef0f5218@213.189.53.91:2089/?sni=www.bing.com&alpn=h3&insecure=1#PL12
 https://kwx1.kongwx.us.kg/e2ab68df-d812-4fd3-9ec7-07ec495fa518
 http://kwx2.kongwx.us.kg/268e8ed5-5ad1-4bc5-9894-ad89f14f6118
 https://xfi1.xfi.us.kg/f88f41b0-2397-44a6-ace9-8b96b6489918
