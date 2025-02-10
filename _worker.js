@@ -15,7 +15,7 @@ let cacheTTL = 24 ;//小时，缓存时长
 //节点链接 + 订阅链接
 let MainData = `
 https://kwx1.kongwx.us.kg/e2ab68df-d812-4fd3-9ec7-07ec495fa518
-http://kwx2.kongwx.us.kg/268e8ed5-5ad1-4bc5-9894-ad89f14f6118
+https://aaa.kwx.us.kg/b27d156b-5f5c-4e47-b3c5-46521541a168
 https://aaa.xfi.us.kg/3b03c9cb-998c-4c6e-8ccf-5bd9aca29618
 `
 
