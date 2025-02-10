@@ -16,7 +16,7 @@ let cacheTTL = 24 ;//小时，缓存时长
 let MainData = `
 https://kwx1.kongwx.us.kg/e2ab68df-d812-4fd3-9ec7-07ec495fa518
 http://kwx2.kongwx.us.kg/268e8ed5-5ad1-4bc5-9894-ad89f14f6118
-https://xfi1.xfi.us.kg/f88f41b0-2397-44a6-ace9-8b96b6489918
+https://aaa.xfi.us.kg/3b03c9cb-998c-4c6e-8ccf-5bd9aca29618
 `
 
 let urls = [];
