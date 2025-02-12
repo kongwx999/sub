@@ -18,7 +18,7 @@ hysteria2://bc97f674-c578-4940-9234-0a1da46041b0@128.204.223.98:51980?sni=www.bi
 hysteria2://bc97f674-c578-4940-9234-0a1da46041b0@85.194.246.69:23632?sni=www.bing.com&alpn=h3&insecure=1#PL-s12-hysteria2
 https://aaa.kwx.us.kg/b27d156b-5f5c-4e47-b3c5-46521541a168
 https://aaa.xfi.us.kg/3b03c9cb-998c-4c6e-8ccf-5bd9aca29618
-https://kwx1.kongwx.us.kg/e2ab68df-d812-4fd3-9ec7-07ec495fa518
+https://abc.kwx.us.kg/d757d1f5-615d-4ec5-b4c7-5c318d518999
 `
 
 let urls = [];
