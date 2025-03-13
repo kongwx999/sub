@@ -14,6 +14,7 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
+tuic://d491b117-da3d-4d9a-6586-0dfb5b7f4242%3Aadmin123@85.194.246.69:16868?sni=www.bing.com&alpn=h3&congestion_control=bbr#PL-s12-tuic-xf122
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjA3LjAuMTg6NDQz#TW,Taipei
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjIyOS4xNjIGNDQz#JP,Tokyo_2
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTcuMTgwLjIlLjIyODoONDM=#HK,New Territories
