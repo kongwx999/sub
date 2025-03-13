@@ -13,19 +13,8 @@ let timestamp = 4102329600000;//2099-12-31
 let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
-let MainData = `
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjIxLjE2OS42Mzo0NDM=#US, Houston
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMTguMjM3LjczLjIxNjo0NDM=#US, Dallas 2
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDcuMTI4LjE1NC4xNjQ6NDQz#TW, Taipei
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjE2LjIwLjIwMzo0NDM=#HK, Los Angeles
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU1LjE4My4yNDU6NDQz#SG, Singapore
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjEwLjI1My45NTo0NDM=#CA, Vancouver
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU0LjkzLjg4OjQ0Mw==#JP, Tokyo 2
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAxLjI1NC43NDo0NDM=#JP, Osaka
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAyLjQ5Ljc2OjQ0Mw==#HK, New Territories
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMTgwLjEzNy41NDo0NDM=#JP, Tokyo
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMy4zNi4xMTcuMjEzOjQ0Mw==#KR, Incheon
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjE5Ni40Mzo0NDM=#HK, Kowloon
+let MainData = 
+`
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDcuMTI4LjE1NC4xNjQ6NDQz#TW, Taipei
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjE5Ni40Mzo0NDM=#HK, Kowloon
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAyLjQ5Ljc2OjQ0Mw==#HK, New Territories
@@ -38,6 +27,18 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU1LjE4My4yNDU6NDQz#SG, Singapore
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMTguMjM3LjczLjIxNjo0NDM=#US, Dallas 2
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMy4zNi4xMTcuMjEzOjQ0Mw==#KR, Incheon
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjE2LjIwLjIwMzo0NDM=#HK, Los Angeles
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjIxLjE2OS42Mzo0NDM=#US, Houston
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMTguMjM3LjczLjIxNjo0NDM=#US, Dallas 2
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDcuMTI4LjE1NC4xNjQ6NDQz#TW, Taipei
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjE2LjIwLjIwMzo0NDM=#HK, Los Angeles
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU1LjE4My4yNDU6NDQz#SG, Singapore
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjEwLjI1My45NTo0NDM=#CA, Vancouver
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU0LjkzLjg4OjQ0Mw==#JP, Tokyo 2
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAxLjI1NC43NDo0NDM=#JP, Osaka
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAyLjQ5Ljc2OjQ0Mw==#HK, New Territories
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMTgwLjEzNy41NDo0NDM=#JP, Tokyo
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMy4zNi4xMTcuMjEzOjQ0Mw==#KR, Incheon
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjE5Ni40Mzo0NDM=#HK, Kowloon
 `
 
 let urls = [];
