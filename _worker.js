@@ -14,7 +14,6 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-https://xf122.serv00.net/d491b117_tuic.log
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjA3LjAuMTg6NDQz#TW,Taipei
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjIyOS4xNjIGNDQz#JP,Tokyo_2
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTcuMTgwLjIlLjIyODoONDM=#HK,New Territories
