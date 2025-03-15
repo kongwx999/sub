@@ -13,20 +13,10 @@ let timestamp = 4102329600000;//2099-12-31
 let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
-let MainData = 
-`
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDcuMTI4LjE1NC4xNjQ6NDQz#TW, Taipei
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAzLjE5Ni40Mzo0NDM=#HK, Kowloon
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAyLjQ5Ljc2OjQ0Mw==#HK, New Territories
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANDMuMjAxLjI1NC43NDo0NDM=#JP, Osaka
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjEwLjI1My45NTo0NDM=#CA, Vancouver
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMTgwLjEzNy41NDo0NDM=#JP, Tokyo
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU0LjkzLjg4OjQ0Mw==#JP, Tokyo 2
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjIxLjE2OS42Mzo0NDM=#US, Houston
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjU1LjE4My4yNDU6NDQz#SG, Singapore
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMTguMjM3LjczLjIxNjo0NDM=#US, Dallas 2
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMy4zNi4xMTcuMjEzOjQ0Mw==#KR, Incheon
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMzQuMjE2LjIwLjIwMzo0NDM=#HK, Los Angeles
+let MainData = `
+tuic://8fe69c01-8bdc-48af-8c1c-854462916888:admin123@128.204.223.98:16868?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#S05-tuic
+tuic://8fe69c01-8bdc-48af-8c1c-854462916888:admin123@85.194.246.69:16868?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#S12-tuic
+https://fox.168629.xyz/c5409c25-baec-4361-8e04-1e4524188158
 `
 
 let urls = [];
