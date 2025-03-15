@@ -14,8 +14,8 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-tuic://8fe69c01-8bdc-48af-8c1c-854462916888:admin123@128.204.223.98:16868?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#S05-tuic
-tuic://8fe69c01-8bdc-48af-8c1c-854462916888:admin123@85.194.246.69:16868?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#S12-tuic
+hysteria2://8fe69c01-8bdc-48af-8c1c-854462916888@128.204.223.98:16868?sni=www.bing.com&alpn=h3&insecure=1#PL-s05-hysteria2
+hysteria2://8fe69c01-8bdc-48af-8c1c-854462916888@85.194.246.69:16868?sni=www.bing.com&alpn=h3&insecure=1#PL-s12-hysteria2
 https://fox.168629.xyz/c5409c25-baec-4361-8e04-1e4524188158
 `
 
