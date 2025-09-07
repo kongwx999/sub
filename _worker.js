@@ -28,7 +28,6 @@ trojan://slch2024@194.36.55.195:2096?security=tls&sni=ocost-dy.wmlefl.cc&type=ws
 trojan://slch2024@188.42.89.195:2096?security=tls&sni=ocost-dy.wmlefl.cc&type=ws&host=ocost-dy.wmlefl.cc&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B8%F0%9F%87%AC%5Bopenproxylist.com%5D%20trojan-SG
 trojan://slch2024@188.244.122.195:2096?security=tls&sni=ocost-dy.wmlefl.cc&type=ws&host=ocost-dy.wmlefl.cc&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B8%F0%9F%87%AC%5Bopenproxylist.com%5D%20trojan-SG
 trojan://slch2024@192.200.160.195:2096?security=tls&sni=ocost-dy.wmlefl.cc&type=ws&host=ocost-dy.wmlefl.cc&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B8%F0%9F%87%AC%5Bopenproxylist.com%5D%20trojan-SG
-
 `;
 
 let urls = [];
@@ -842,5 +841,6 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
 
